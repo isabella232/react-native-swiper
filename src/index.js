@@ -13,7 +13,8 @@ import {
   ActivityIndicator
 } from 'react-native'
 
-import {ViewPagerZoom} from 'react-native-image-zoom'
+let ViewPagerZoom
+if (Platform.OS === 'android') ViewPagerZoom = require('react-native-image-zoom').ViewPagerZoom
 
 const { width, height } = Dimensions.get('window')
 
