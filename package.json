@@ -59,7 +59,7 @@
     "updtr": "^0.2.3"
   },
   "dependencies": {
-    "react-native-image-zoom": "BonnierNews/react-native-image-zoom#fbbebdb1d67b94ac77e72855959f079e1ac4cee9",
+    "react-native-image-zoom": "BonnierNews/react-native-image-zoom#072bec5656257373d0cfbee845df00431f1b607f",
     "prop-types": "^15.5.10"
   }
 }
